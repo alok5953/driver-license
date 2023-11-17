@@ -1,0 +1,112 @@
+.breadcrumbHeader {
+  top: 140px;
+}
+.backBtn {
+  text-align: left;
+  font: normal normal 600 21px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #9e9e9e;
+  opacity: 1;
+}
+.checkoutButtons .btn.btn-outline-primary {
+  background-color: #ffffff;
+  box-shadow: 0px 0px 2px #00000029;
+  border: 1px solid #e9e9f0;
+  border-radius: 6px;
+  font: normal normal 600 17px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #00a5b8;
+  padding: 13px 11px 13px 49px;
+  background-repeat: no-repeat;
+  background-position: 6%;
+}
+.checkoutButtons .btn.btn-outline-primary:hover {
+  background-color: #00a5b8;
+  color: #ffffff;
+}
+.btn.btn-outline-primary.btnShip {
+  background-image: url("../../../../src/Images/checkout/awesome-shipping-fast.svg");
+}
+.btn.btn-outline-primary.btnShip:hover {
+  background-image: url("../../../../src/Images/checkout/shippingwhite.svg");
+}
+
+.btn.btn-outline-primary.btnBonus {
+  background-image: url("../../../../src/Images/checkout/awesome-gift.svg");
+}
+.btn.btn-outline-primary.btnBonus:hover {
+  background-image: url("../../../../src/Images/checkout/awesome-giftwhite.svg");
+}
+
+.btn.btn-outline-primary.btnAudio {
+  background-image: url("../../../../src/Images/checkout/curved-microphone.svg");
+}
+.btn.btn-outline-primary.btnAudio:hover {
+  background-image: url("../../../../src/Images/checkout/curved-microphonewhite.svg");
+}
+
+/*radio*/
+.checkoutRadio .form-group:last-child {
+  margin-bottom: 0;
+}
+.checkoutRadio .form-group label {
+  -webkit-appearance: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ffca05;
+  padding: 8px;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.checkoutRadio .form-group .label-text {
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  vertical-align: middle;
+  cursor: pointer;
+  padding-left: 10px;
+  margin-left: 0px;
+  opacity: 1;
+}
+.checkoutRadio .form-group input {
+  display: none;
+  cursor: pointer;
+}
+.checkoutRadio .form-group input:checked + label {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #ffca05;
+  opacity: 1;
+}
+.checkoutRadio label.custom-radio {
+  margin-bottom: 0 !important;
+}
+
+.checkoutRadio .form-group input:checked + label:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  text-align: center;
+  background: #ffca05 0% 0% no-repeat padding-box;
+  text-shadow: none;
+  font-size: 32px;
+}
+
+@media screen and (max-width: 991px) {
+  .checkoutButtons .btn.btn-outline-primary {
+    background-position: 26%;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .breadcrumbHeader {
+    top: 160px;
+  }
+}

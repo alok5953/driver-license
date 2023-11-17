@@ -1,0 +1,77 @@
+.invite_section h1{
+    font: normal normal bold 40px/50px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.mainSection .input_url .form-group .form-control{
+    background: #EBEBEB 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    height: 55px;
+    border-color: transparent;
+}
+.mainSection .input_url .form-group::-webkit-input-placeholder{
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #9E9E9E;
+}
+.mainSection .input_url .copy_btn{
+    background: #AFAFAF 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    font: normal normal 600 18px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    height: 54px;
+    border-color: transparent;
+    padding: 8px 20px;
+}
+.input_url p{
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #9E9E9E;
+}
+.input_url .list-group{
+    display: block;
+}
+.input_url .list-group-item{
+    border: none;
+    display: inline-block;
+    padding: 0px;
+    margin: 0px 20px 0px 0px;
+    cursor: pointer;
+}
+.divider_border{
+    border: 1px dashed #707070;
+    opacity: 0.43;
+}
+.more_ways p{
+    font: normal normal bold 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+}
+.btn-primary.send_invite_btn, .btn-primary.send_invite_btn:hover, .btn-primary.send_invite_btn:focus{
+    display: block;
+    background: #FFCA05 0% 0% no-repeat padding-box;
+    border-radius: 2px;
+    font: normal normal 600 21px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    border-color: transparent;
+    width: 80%;
+    padding: 9px 10px;
+    margin-top: -2px;
+}
+
+@media screen and (max-width:767px){
+    .invite_section h1 {
+        font: normal normal bold 33px/44px Source Sans Pro;
+    }
+}
+@media screen and (max-width:576px){
+    .btn-primary.send_invite_btn{
+        width: 50% !important;
+        margin:auto;
+    }
+    .input_url .list-group-item{
+        margin:0px 20px 16px 0px;
+    }
+}

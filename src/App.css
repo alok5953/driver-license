@@ -1,0 +1,165 @@
+.App {
+  text-align: center;
+}
+
+.App_header_container {
+  width: 100%;
+  position: relative;
+  /* overflow-x: hidden; */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+.react-date-picker__calendar{
+  z-index: 99;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+body {
+  font-family: "Source Sans Pro" !important;
+}
+.btnSame.btn-primary,
+.btnSame.btn-primary:hover,
+.btnSame.btn-primary:focus,
+.show > .btnnone.btn-primary {
+  background: #4ba0f0 0% 0% no-repeat padding-box;
+  border-color: #4ba0f0;
+  border-radius: 4px;
+  opacity: 1;
+  text-align: center;
+  font: normal normal normal 13px/17px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  opacity: 1;
+  padding: 10px 30px !important;
+}
+
+.tabbing_container .btnSame.btn-primary:not(:disabled):not(.disabled).active,
+.tabbing_container .btnSame.btn-primary:not(:disabled):not(.disabled):active,
+.tabbing_container .show > .btnSame.btn-primary.dropdown-toggle {
+  background: #4ba0f0 0% 0% no-repeat padding-box;
+  border-color: #4ba0f0;
+  color: #4ba0f0 !important;
+}
+
+.allsameInput .form-label {
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-transform: capitalize;
+}
+.allsameInput .form-control {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cbcbcb;
+  border-radius: 2px;
+  opacity: 1;
+  height: 50px;
+  padding-left: 22px !important;
+}
+
+.allselectSame .form-control {
+  height: 50px!important;
+  -webkit-appearance: none!important;
+  -moz-appearance: none!important;
+  appearance: none!important;
+  background-image: url(./Images/arrow_dropdown.svg)!important;
+  background-repeat: no-repeat!important;
+  background-position: 95% 51%!important;
+  padding-left: 20px !important;
+}
+
+.samecheckbox .custom-control {
+  text-align: center;
+  height: auto;
+}
+.samecheckbox .custom-control input {
+  opacity: 0;
+}
+
+.samecheckbox .custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #0f273e;
+  background: #0f273e 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+.samecheckbox
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::after {
+  background-image: url("../src/Images/check.svg");
+}
+
+.pageBottom .ant-pagination-item-active, .pageBottom .ant-pagination-item:focus-visible, .pageBottom .ant-pagination-item:hover, .ant-pagination-prev:focus-visible .ant-pagination-item-link, .ant-pagination-next:focus-visible .ant-pagination-item-link, .ant-pagination-prev:hover .ant-pagination-item-link, .ant-pagination-next:hover .ant-pagination-item-link{
+  border-color: #091c2d !important;
+  background: #091c2d 0% 0% no-repeat padding-box !important;
+  color: #fff !important;
+}
+.pageBottom .ant-pagination-item{
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e8e9ec;
+  border-radius: 5px;
+  font: normal normal normal 13px/30px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4d4f5c;
+}
+.pageBottom .ant-pagination-item-link{
+  padding: 0px !important;
+  line-height: 0px !important;
+}
+
+
+@media screen and (max-width: 991px) {
+  .table {
+    display: inline-block !important;
+    max-width: 100% !important;
+    overflow-x: auto !important;
+    white-space: nowrap !important;
+    border-collapse: collapse !important;
+    table-layout: auto !important;
+  }
+}
+
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+ 
+}
+
+@media screen and (max-width:576px){
+  .ant-pagination-jump-next.ant-pagination-jump-next-custom-icon{
+    vertical-align: revert;
+  }
+}

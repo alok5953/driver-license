@@ -1,0 +1,40 @@
+.studentForm h1 {
+  text-align: left;
+  font: normal normal bold 22px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.studentForm h5 {
+  text-align: left;
+  font: normal normal 600 18px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.studentForm label {
+  text-align: left;
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.studentForm label.fullName {
+  text-align: left;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.btn.btn-primary.btnCancel {
+  background: #fff;
+  border: 1px solid #707070;
+  border-radius: 2px;
+  font: normal normal 600 16px/24px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #707070;
+  padding: 12px;
+}
+.btn.btn-primary.btnCancel a {
+  color: #707070;
+}

@@ -1,0 +1,463 @@
+.cousestitle {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.chartHearder {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 0;
+  padding: 15px;
+}
+.heading {
+  margin-left: 0;
+}
+.heading h3 {
+  color: #4d4f5c;
+  font-size: 18px;
+}
+.heading p {
+  color: #a3a0fb;
+  text-align: left;
+}
+.HeadDropdown {
+  display: flex;
+  width: 30%;
+  justify-content: space-around;
+}
+.editDropdown {
+  border-radius: 4px;
+  opacity: 1;
+  border: 1px solid #d7dae2;
+  min-width: 100px;
+  width: auto;
+  font-size: 13px;
+  letter-spacing: 0px;
+  color: #4d565c;
+  opacity: 1;
+  text-align: left;
+  font-family: Source Sans Pro;
+}
+.pieChartHeading {
+  display: flex;
+  margin-left: 18px;
+}
+.pieChartHeading h3 {
+  font-size: 18px;
+  color: #4d4f5c;
+}
+.pieChartData p {
+  color: #43425d;
+  font-size: 15px;
+}
+.dataGet {
+  display: flex;
+  justify-content: space-between;
+}
+.dataGet span {
+  color: #4d4f5c;
+  opacity: 0.5;
+}
+.dataIcon {
+  display: flex;
+  align-items: center;
+}
+
+.iConCircle {
+  height: 16px;
+  border: 3px solid #91e297;
+  width: 16px;
+  border-radius: 100%;
+  margin-right: 8px;
+}
+
+.iConGreen {
+  border: 3px solid #91e297;
+}
+.iConYellow {
+  border: 3px solid#FFC578;
+}
+.iConRed {
+  border: 3px solid#FF6868;
+}
+/* .btn,
+button.btn {
+  box-shadow: 0px 2px 3px #0000000d;
+  border: 1px solid #d7dae2;
+  border-radius: 4px;
+} */
+.apexcharts-menu-icon {
+  display: none;
+}
+.donutChart {
+  width: 100%;
+  position: relative;
+  height: 100%;
+}
+.donutCenter {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  right: auto;
+  bottom: auto;
+  z-index: 999;
+  margin: -26px 0 0 -18.5px;
+  font-weight: normal;
+}
+.donutCenter h2 {
+  color: #4d4f5c;
+  font-size: 18px;
+  line-height: 28px;
+  margin: 0;
+}
+.pieChartData {
+  padding: 0 16px;
+  width: 85%;
+}
+.dataIcon p {
+  margin: 4px 0px;
+}
+/* body {
+  background: #f8f8f8 !important ;
+} */
+/* .containerHome {
+  width: 100%;
+  padding: 20px 0;
+  height: 100%;
+} */
+/* .card { margin-bottom: 30px;     } */
+
+.pieChartHeading {
+  padding: 15px;
+  margin: 0;
+}
+.pieChartData {
+  padding-bottom: 15px;
+}
+.latestInfoList {
+  border: 0;
+}
+.latestInfoList li {
+  border: 0;
+}
+.card > .list-group:last-child {
+  border: 0;
+}
+/* .borderBottom {
+  width: 93%;
+  display: block;
+  border-bottom: 1px solid #e8e9ec;
+  margin: 0 auto;
+} */
+.borderListBottom {
+  width: 100%;
+  display: block;
+  border-bottom: 1px solid #f1f1f3;
+}
+.noFlex {
+  display: block;
+}
+.table td,
+.table th {
+  border: 0 !important;
+}
+.dataIcon {
+  display: flex;
+}
+.iConGreen {
+  height: 16px;
+  border: 3px solid #91e297;
+  width: 16px;
+  border-radius: 100%;
+}
+.iConYellow {
+  height: 16px;
+  border: 3px solid#FFC578;
+  width: 16px;
+  border-radius: 100%;
+}
+.iConRed {
+  height: 16px;
+  border: 3px solid#FF6868;
+  width: 16px;
+  border-radius: 100%;
+}
+.courseTitle {
+  color: #091c2d;
+  font-size: 23px;
+  font-weight: bold;
+  margin-bottom: 0 !important;
+}
+.tableHeading {
+  background-color: #f5f6fa;
+}
+.tableHeading th {
+  color: #a3a6b4;
+  opacity: 1;
+  font-size: 13px;
+  font-weight: bold;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.tabledata {
+  text-align: left;
+}
+.tabledata td {
+  font-size: 14px;
+}
+.tabledata th {
+  opacity: 1;
+  color: #4d4f5c;
+  font-size: 14px;
+}
+.active {
+  color: #2ef100;
+  font-size: 14px;
+  letter-spacing: 0px;
+  opacity: 1;
+}
+.btmCreate {
+  color: #4ba0f0;
+}
+.btnBlue {
+  background-color: #4ba0f0 !important ;
+  color: #ffffff !important;
+}
+.infoStatus {
+  color: #4d4f5c;
+  text-align: right;
+  font-size: 13px;
+  opacity: 0.5;
+  font-weight: normal;
+}
+.icon001 {
+  background-image: url("../../../Images/svg/Icon.svg");
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+}
+.icon002 {
+  background-image: url("../../../Images/svg/newcourseEnrolment.svg");
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+}
+.icon003 {
+  background-image: url("../../../Images/svg/completedCourse.svg");
+  width: 38px;
+  height: 38px;
+  display: inline-block;
+}
+li.list-group-item.latestInfo {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  min-height: 80px;
+}
+.iconData {
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+.infoIcon {
+  margin-right: 10px;
+}
+.noFlex {
+  text-align: left;
+}
+.containerHome .card {
+  border: 0;
+  /* box-shadow: 0px 2px 6px #0000000a;
+  height: 95%;
+  padding: 0.7rem;
+  margin-bottom: 2rem; */
+}
+.ViewAlltag {
+  font-size: 11px;
+  font-weight: bold;
+  opacity: 1;
+  letter-spacing: 0px;
+  text-align: left;
+}
+.chartDropdown .dropdown-toggle::after {
+  display: none;
+}
+.dropDownIcon i {
+  color: #a4afb7;
+  opacity: 1;
+  width: 11px;
+  height: 7px;
+}
+.donutChart {
+  text-align: center;
+}
+.apexcharts-canvas {
+  margin: 0 auto;
+}
+
+.heading h3 {
+  padding-bottom: 0;
+  margin: 0;
+}
+.chartHearder .heading {
+  margin-bottom: 15px;
+}
+.latestInfoList {
+  padding: 0 20px;
+}
+.btn.dropdown-toggle,
+.btn.dropdown-toggle:focus {
+  box-shadow: 0px 2px 3px #0000000d;
+  border: 1px solid #d7dae2;
+}
+
+/* Quiz Section */
+/* .QuizHeading {
+  text-align: left;
+  padding: 3rem;
+  padding-bottom: 0;
+  position: relative;
+}
+.QuizHeading h3 {
+  color: #091c2d;
+  font-size: 40px;
+  font-weight: bold;
+  text-align: left;
+}
+.quizPreHeading span {
+  position: absolute;
+  bottom: 13%;
+  left: 6.5%;
+  opacity: 1;
+  font-size: 18px;
+  font-weight: 600;
+}
+.quizPreHeading h2 {
+  color: #121d53;
+  opacity: 0.15;
+  text-align: left;
+  font-size: 67px;
+  font-weight: bold;
+  display: inline-block;
+  position: relative;
+} */
+/* .quizDetails {
+  text-align: left;
+  margin-top: 20px;
+  padding: 3rem;
+  margin-top: 0;
+  padding-top: 0;
+} */
+.quizDetails h6 {
+  font: normal normal 600 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091c2d;
+}
+
+.quizDetails .button-down::after {
+  transform: rotate(133deg);
+  top: 25px;
+}
+.quizDetails .button-up::after {
+  transform: rotate(225deg);
+  top: 25px;
+}
+
+.quizTabs h3 {
+  color: #091c2d;
+  font-size: 18px;
+  opacity: 1;
+  font-weight: bold;
+}
+.quizLable {
+  color: #000000;
+  font-size: 18px;
+  text-align: left;
+}
+/*********************************************/
+.tags {
+  background-color: #091c2d;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  margin: 10px 10px 20px 0px;
+  display: inline-block;
+}
+.closeIcon {
+  transform: rotate(40deg);
+  display: inline-block;
+  margin-left: 1rem;
+  font-size: 1rem;
+  cursor: pointer;
+}
+.QuizCollapse .card-body {
+  padding: 4px 30px 15px !important;
+}
+.QuizCollapse .card-body .form-group.col {
+  max-width: 370px;
+}
+.QuizCollapse .form-control {
+  min-height: calc(2em + 0.75rem + 2px);
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+}
+.quizTabs .form-control {
+  min-height: calc(2em + 0.75rem + 2px);
+}
+.allsameInput .QuizCollapse label {
+  margin-bottom: 0.8rem;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091c2d;
+  opacity: 1;
+  text-transform: inherit;
+}
+.quizDetails .accordion {
+  padding: 0;
+  border-bottom: 1px solid #00000014;
+}
+.quizDetails .accordion .card-header {
+  padding: 20px 11px;
+  background-color: transparent;
+  border: none;
+}
+
+/* btn quiz section */
+.quizSecBtn {
+  display: flex;
+  justify-content: flex-end;
+}
+.quizSecBtn .btn {
+  background-color: #4ba0f0;
+  padding: 10px;
+  width: 136px;
+}
+.quizSecBtn .btn:focus {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+}
+.timeIcon {
+  background-image: url("../../../Images/svg/timeClock.svg");
+  background-repeat: no-repeat;
+  background-position: right;
+  background-origin: content-box;
+}
+/*  */
+
+.timepara p {
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091c2d;
+  opacity: 1;
+}
+.react-datepicker-popper {
+  z-index: 99;
+}
+.btn-primary.btnaddUser, .btn-primary.btnaddUser:hover, .btn-primary.btnaddUser:focus{
+  padding: 15px 27px !important;
+  float: none;
+  margin-top: 36px;
+}

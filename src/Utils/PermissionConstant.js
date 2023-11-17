@@ -1,0 +1,15 @@
+export const ROLE_PERMISSION= 'roles';
+export const USER_ADD_ADMIN_PERMISSION= 'admin_users';
+export const SECURITY_QUESTION_PERMISSION= 'security_questions';
+export const QUIZE_PERMISSION= 'quiz';
+export const COURSE_PERMISSION= 'course';
+export const COUPON_PERMISSION= 'coupons';
+export const PAYMENT_PERMISSION= 'payments';
+export const USER_PERMISSION= 'users';
+export const DASHBOARD_PERMISSION= 'dashboard';
+export const H5P_PERMISSION= 'h59';
+export const ADD_ONS= 'addons';
+export const FULL= 'full';
+export const READ= 'read';
+export const EDIT= 'write';
+export const NONE = 'none'

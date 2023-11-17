@@ -1,0 +1,69 @@
+.noHeaderTop {
+  position: relative;
+  top: 100px;
+}
+.welcomeScreen .card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border: 1px solid #cbcbcb;
+  border-radius: 6px;
+}
+.welcomeScreen .card-title {
+  font: normal normal bold 31px/35px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #255eab;
+}
+.welcomeScreen .card-text {
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.btn.btnSign,
+.btn.btnSign:hover {
+  font: normal normal normal 16px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  background: #ffca05 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  border-color: #ffca05;
+  padding: 3px 38px;
+  font: normal normal 600 21px/32px Source Sans Pro;
+  padding: 10px;
+}
+
+.btn.btnSign a {
+  color: #ffffff;
+}
+
+.forgetPassword,
+.forgetPassword a,
+.forgetPassword a:hover {
+  display: block;
+  font: normal normal normal 14px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4ba0f0;
+}
+
+.welcomeScreen .btn-primary:not(:disabled):not(.disabled).active,
+.welcomeScreen .btn-primary:not(:disabled):not(.disabled):active,
+.welcomeScreen .show > .btn-primary.dropdown-toggle {
+  background: #ffca05 0% 0% no-repeat padding-box !important;
+  border-color: #ffca05 !important;
+}
+.welcomeScreen .form-group .form-control {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cbcbcb;
+  border-radius: 2px;
+  opacity: 1;
+  height: 50px;
+}
+
+.welcomeScreen .form-group .form-label {
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.verify_link a{
+  color: #4ba0f0 !important;
+}

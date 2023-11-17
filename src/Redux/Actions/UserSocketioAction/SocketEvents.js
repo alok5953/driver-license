@@ -1,0 +1,5 @@
+export const START_MODULE = 'START_MODULE';
+export const MODULE_TIMER = 'MODULE_TIMER';
+export const STOP_MODULE = 'STOP_MODULE';
+export const TIMER_UP = 'TIMER_UP';
+export const NON_INTERACTIVE_START = 'NON_INTERACTIVE_START';

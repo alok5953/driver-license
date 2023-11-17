@@ -1,0 +1,42 @@
+
+  .previewquiz h1 {
+    font: normal normal bold 40px/44px Source Sans Pro;
+    letter-spacing: 0.08px;
+    color: #091c2d;
+  }
+ 
+  .page-item {
+    background-color: #F8F8F8;
+    font-size: normal normal normal 20px/25px Source Sans Pro;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+  }
+  .page-options {
+    margin-top: 40px;
+  }
+  .quiz-number {
+    background-color: #4BA0F0;
+    color: white;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    /* max-width: 200px !important; */
+  }
+
+  .form-group-custom{
+    max-width: fit-content;
+    padding: 15px;
+    background-color: #DEEFFF;
+  }
+  .label-text {
+    margin-left: 10px;
+    font-size: 16px;
+    font-weight: 600;
+  }
+  
+
+  @media screen and (max-width: 576px) {
+
+
+  }

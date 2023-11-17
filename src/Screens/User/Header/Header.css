@@ -1,0 +1,77 @@
+.menuHeader {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  position: fixed;
+  top: 72px;
+  width: 100%;
+  display: block;
+  z-index: 9;
+}
+.menuHeader .navbar-light .navbar-nav .nav-link {
+  margin-right: 15%;
+}
+.menuHeader .navbar-light .navbar-nav .nav-link a {
+  font: normal normal normal 14px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #255eab;
+  padding-bottom: 8px;
+}
+.menuHeader .navbar-light .has-search .form-control {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #d6d6d6;
+  border-radius: 3px;
+}
+.menuHeader .navbar-light .has-search .form-control::-webkit-input-placeholder {
+  font: normal normal normal 15px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #cbcbcb;
+  opacity: 1;
+}
+.userName {
+  background: #ffca05 0% 0% no-repeat padding-box;
+  border-radius: 29px;
+  font: normal normal 600 20px/36px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  width: 42px;
+  height: 42px;
+  padding: 2px 10px;
+}
+.menuHeader .navbar-light .navbar-nav .nav-link a.active {
+  color: #ffca05;
+  border-bottom: 1px solid #ffca05;
+  opacity: 1;
+}
+
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .menuHeader .navbar-light .navbar-nav .nav-link {
+    margin-right: 8%;
+  }
+}
+@media screen and (min-width: 768px) {
+  .menuHeader .navbar-light .navbar-toggler {
+    display: none !important;
+  }
+}
+@media screen and (max-width: 767px) {
+  .topBar .btn.btnSign {
+    padding: 2px 22px !important;
+  }
+
+  .menuHeader .navbar-light .navbar-toggler {
+    display: block !important;
+  }
+  .menuHeader .navbar-light .has-search {
+    width: 100% !important;
+    margin-top: 10px;
+  }
+  .menuHeader .navbar-light .navbar-collapse {
+    position: absolute;
+    top: 100%;
+    left: 0px;
+    width: 100%;
+    background: white;
+    text-align: left;
+    padding: 14px;
+  }
+}

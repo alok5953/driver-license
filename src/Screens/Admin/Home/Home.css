@@ -1,0 +1,50 @@
+.dashboardSec .card {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 2px 6px #0000000a;
+  border-radius: 4px;
+}
+.tableScroll{
+  max-height: 190px;
+  overflow-y: scroll;
+}
+.form-control.dark_font_color{
+  color: #212529;
+  opacity: 1;
+  width:120px;
+} 
+
+.chart_color{
+  border: 3px solid#8078ff!important;
+}
+.dashboardSec .HeadDropdown{
+  justify-content: flex-end;
+}
+
+@media screen and (max-width:576px){
+  .dashboardSec .HeadDropdown {
+    width: 60%;
+    justify-content: flex-end;
+  }
+  .dashboardSec .form-control.dark_font_color{
+    width:90px;
+  }
+  .dashboardSec .ViewAlltag{
+    padding: 50px 0px 0px;
+    font-size: 14px;
+  }
+}
+@media screen and (min-width:768px) and (max-width:991px){
+  .dashboardSec li.list-group-item.latestInfo{
+    padding: 0px 10px;
+  }
+  .dashboardSec li.list-group-item .iconData .infoIcon{
+    background-size: contain;
+    background-repeat: no-repeat;
+  }
+  .dashboardSec li.list-group-item .iconData{
+    text-align: left;
+  }
+  .form-control.dark_font_color {
+    width: 64px;
+  }
+}

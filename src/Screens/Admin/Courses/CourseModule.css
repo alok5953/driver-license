@@ -1,0 +1,532 @@
+.Course_container {
+  padding: 22px 47px;
+}
+.form-control-multi-file-upload {
+  display: none;
+}
+.multi_file_upload{
+  border: 1px solid #ccc;
+  display: inline-block; 
+  padding: 6px 12px;
+  cursor: pointer;
+}
+.heading_text {
+  font: normal normal bold 40px/44px Source Sans Pro;
+  letter-spacing: 0.08px;
+  color: #091c2d;
+  opacity: 1;
+  font-weight: bold;
+  text-align: left;
+  margin: 0;
+}
+.icon_position{
+  position: relative;
+}
+.table_count_icon1{
+  position: absolute;
+  top: -6px;
+  left: 12px;
+  color: #fff;
+  background: #4ba0f0;
+  height: 12px;
+  min-width: 12px;
+  border-radius: 100px;
+  font-size: 11px;
+  text-align: center;
+  line-height: 11px;
+}
+.table_count_icon{
+  position: absolute;
+    top: -6px;
+    left: 2px;
+    color: #fff;
+    background: #4ba0f0;
+    height: 12px;
+    min-width: 12px;
+    border-radius: 100px;
+    font-size: 11px;
+    text-align: center;
+    line-height: 11px;
+}
+.table_of_content {
+  font: normal normal bold 67px/84px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #dddbe5;
+  text-align: left;
+  position: relative;
+}
+.table_of_content span {
+  font: normal normal 600 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #0f273e;
+  opacity: 1 !important;
+  position: absolute;
+  bottom: 22px;
+  left: 54px;
+} 
+.five_hours {
+  font: italic normal 600 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091c2d;
+  opacity: 1;
+}
+.security_tab {
+  font: normal normal normal 12px/15px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #c1c1c1;
+  opacity: 1;
+  cursor: pointer;
+}
+.licensing_course p {
+  margin-right: 13px;
+}
+.add_buttons button, .add_buttons p {
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4ba0f0;
+  opacity: 1;
+  border: none;
+  background: none;
+  margin-left: 20px;
+}
+.add_quiz_btn {
+  /* border-top: 1px solid #f3f3f3; */
+  padding: 22px 0 0 0;
+}
+.tabbmain_container {
+  text-align: left;
+}
+.table .thead-light th {
+  font: normal normal bold 13px/17px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #a3a6b4 !important;
+  opacity: 1;
+}
+.table tr {
+  border-bottom: 1px solid #fafafb;
+}
+.save_btn {
+  width: 70px;
+  height: 24px;
+  background: #4ba0f0 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  font: normal normal 600 12px/15px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  border: none;
+}
+.back_and_save {
+  text-align: right;
+  margin-top: 130px;
+}
+button.btnSame.mt-4.add_user.save_button.btn.btn-primary {
+  margin: 0 0 0 26px !important;
+}
+.table td {
+  font: normal normal normal 14px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4d4f5c !important;
+  opacity: 1;
+}
+
+.pre_licensing {
+  text-align: left;
+}
+.licensing_course,
+.licensing_course p,
+.add_buttons, 
+.add_buttons button,
+.add_buttons p  {
+  display: inline-block;
+}
+.add_buttons,
+.add_buttons p  {
+  float: right;
+}
+.add_quizmodal .modal-title, .add_securitymodal .modal-title{
+  font-weight: bold;
+}
+.add_quizmodal input, .add_securitymodal input {
+  height: inherit !important;
+}
+.add_quizmodal .form-check, .add_securitymodal .form-check {
+  margin-bottom: 30px;
+}
+.add_quizmodal label {
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.add_quizmodal .modal-body {
+  padding: 0;
+  margin-bottom: 20px;
+}
+.add_quizmodal .modal-dialog {
+  max-width: 650px !important;
+}
+
+.custom-radio-wrap {
+  padding: 20px 0;
+  margin-bottom: 20px;
+}
+
+.custom-radio-wrap form .form-group {
+  margin-bottom: 24px;
+}
+
+.custom-radio-wrap form .form-group:last-child {
+  margin-bottom: 0;
+}
+
+.custom-radio-wrap form .form-group label {
+  -webkit-appearance: none;
+  background-color: #dedede;
+  border: 1px solid #dedede;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+
+.checkcontrol.custom-radio-wrap form .form-group .label-text {
+  vertical-align: middle;
+  cursor: pointer;
+  padding-left: 10px;
+  margin-left: -5px;
+  font: normal normal normal 16px/20px Source Sans Pro !important;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.custom-radio-wrap form .form-group input {
+  display: none;
+  cursor: pointer;
+}
+
+.custom-radio-wrap form .form-group input:checked + label {
+  background-color: #e9ecee;
+  color: #99a1a7;
+  border: 1px solid #dedede;
+}
+label.custom-radio {
+  margin-bottom: 0 !important;
+}
+.checkcontrol .custom-radio-wrap form .form-group input:checked ~ .label-text {
+  font: normal normal normal 16px/20px Source Sans Pro !important;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.23;
+}
+
+.custom-radio-wrap form .form-group input:checked + label:after {
+  content: "";
+  width: 14px;
+  height: 14px;
+  border-radius: 50px;
+  position: absolute;
+  top: 1px;
+  left: 1px;
+  background: #8a8a8a;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-shadow: none;
+font:normal normal normal 16px/20px Source Sans Pro;
+  opacity: 0.23;
+}
+.addnewquizmodal form .form-group input:checked + label:after{
+  background: #4ba0f0;
+  opacity: 0.8;
+}
+.input_dropdown button,
+.input_dropdown button:focus,
+.input_dropdown button:hover {
+  background: none;
+  border: none;
+  box-shadow: none;
+}
+.btn-primary:not(:disabled):not(.disabled).active,
+.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btn-primary.dropdown-toggle {
+  background: #4ba0f0 !important;
+  border-color: #4ba0f0 !important;
+  box-shadow: none !important;
+}
+.completiontext {
+  font: normal normal 600 13px/17px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #a3a6b4;
+  margin: 0 0 8px 0;
+}
+.input_dropbox {
+  border: none;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  box-shadow: 0px 3px 6px #00000029;
+  border-radius: 3px;
+  transform: translate(-139px, 10px) !important;
+  width: 160px;
+  padding: 10px;
+  position: absolute;
+}
+.input_dropdown a.dropdown-item {
+  padding-left: 10px;
+}
+.form-group-hours .form-control {
+  width: 40px !important;
+}
+.input_hours {
+  width:30px
+}
+.input_dropdown a.dropdown-item:hover {
+  background: none;
+}
+.coursesection h1 {
+  text-align: left;
+}
+.coursesection h3 {
+  text-align: left !important;
+}
+.input_dropdown input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #949494;
+  border-radius: 2px;
+  font: normal normal normal 10px/13px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+  width: 73px;
+  height: 23px;
+  text-align: right;
+  
+}
+.input_dropdown input:focus {
+  box-shadow: none;
+  border: 1px solid #cbcbcb;
+  opacity: 0.5;
+}
+.input_dropdown .form-group {
+  margin-bottom: 6px;
+}
+.dropsave_btn {
+  font: normal normal 600 13px/17px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4ba0f0;
+  border: none;
+  background: none;
+}
+.available-items {
+  overflow-x: hidden;
+  overflow-y: auto !important;
+  max-height: calc(100vh - 355px);
+}
+.number_width {
+  min-width: 40px;
+}
+/* .module_width {
+  min-width: 500px;
+} */
+.audio_player {
+  padding-left: 15px !important;
+}
+.completion_width {
+  min-width: 160px;
+}
+.action_width {
+  min-width: 78px;
+}
+.peview_andpublish {
+  float: left;
+}
+.peview_andpublish button.backpreview_btn {
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px !important;
+  color: #4ba0f0 !important;
+  width: 136px !important;
+  height: 40px !important;
+  background: none !important;
+  border: 1px solid #4ba0f0;
+  border-radius: 4px;
+  margin-right: 22px;
+}
+.publish_btn {
+  background: #23a504 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  width: 136px !important;
+  height: 40px !important;
+  border: none;
+}
+.table_dot_icon {
+  margin-right: 8px;
+}
+.available-items::-webkit-scrollbar-track {
+  /* -webkit-box-shadow: inset 0 0 6px rgba(202, 92, 92, 0.3) !important; */
+  background-color: #fff !important;
+  border-radius: 10px !important;
+}
+.available-items::-webkit-scrollbar {
+  width: 3px !important;
+  background-color: #fff !important;
+}
+.available-items::-webkit-scrollbar-thumb {
+  border-radius: 5px !important;
+  background-image: -webkit-gradient(
+    linear,
+    left bottom,
+    left top,
+    color-stop(0.72, rgb(112, 112, 112)),
+    color-stop(0.72, rgb(112, 112, 112)),
+    color-stop(0.72, rgb(112, 112, 112))
+  ) !important;
+}
+.quiz_model_section input{
+  display: inline-block!important;
+}
+.quiz_model_section label{
+  background: none!important;
+  border: none!important;
+}
+.tableediticon, .tabledeleteicon, .typingDnaclass{
+  width: auto!important;
+  display: inline-block;
+}
+.save_btn_margin {
+  margin-right: 10px;
+  margin-top: 0 !important;
+  width: 80px;
+  font-size: 1rem;
+}
+.table_input_drop_down .input_dropdown{
+  display: inline-block;
+  width: 30%;
+}
+.table_input_drop_down .input_dropdown input{
+  height: 35px;
+}
+.table_input_drop_down .select_input{
+  display: inline-block;
+  width: 30%;
+}
+.input_box_css{
+  width: 60%;
+}
+.inputnewwidth{
+  width: 100%!important;
+}
+.inputnewwidth p{
+  display: inline-block;
+  margin-left: 4px;
+}
+.course_module_table .form-group {
+  margin-bottom: 0;
+}
+.course_module_table  .form-control{
+  height:39px;
+}
+.course_module_table .save_button.btn-primary{
+  font-size: 1rem;
+  padding: 10px 0px !important;
+  width: 100px;
+}
+.course_module_table .play_icon{
+  width: 50px;
+}
+.add_usermodal.modal_download.course_module .close {
+  display: none;
+}
+.add_usermodal.modal_download.course_module .modal-footer{
+  justify-content: flex-end;
+}
+
+.add_usermodal.modal_download.course_module .modal-footer .btn.btn-primary{
+  padding: 12px 30px !important;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+}
+
+.add_usermodal.modal_download.course_module .modal-footer .cancel_btn{
+  background: #FFFFFF 0% 0% no-repeat padding-box !important;
+  border: 1px solid #CBCBCB !important;
+  border-radius: 9px;
+  padding: 12px 30px !important;
+}
+
+.add_usermodal.modal_download.course_module .upload_head{
+  background: #F5F7FF 0% 0% no-repeat padding-box;
+  border: 1px solid #CBCBCB;
+  padding:20px !important;
+  text-align: left;
+}
+
+/*custom upload*/
+.add_usermodal.course_module input.custom-file-input {
+  color: transparent;
+  background: transparent;
+  border: none;
+  width: auto;
+  height: auto;
+}
+.add_usermodal.course_module input.custom-file-input::-webkit-file-upload-button {
+  visibility: hidden;
+}
+
+.add_usermodal.course_module input.custom-file-input::before {
+  content: "Select file...";
+  display: inline-block;
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border: 1px solid #CBCBCB;
+  border-radius: 9px;
+  padding: 15px 22px;
+  white-space: nowrap;
+  -webkit-user-select: none;
+  cursor: pointer;
+  font-weight: 400;
+  outline: none;
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.add_usermodal.course_module input.custom-file-input:focus {
+  outline: none !important;
+}
+/* .add_usermodal.course_module input.custom-file-input:active::before {
+  transform: scale(0.9) translate(0px, 2px);
+  box-shadow: inset 4px 4px 5px 0px rgba(0, 0, 0, 0.2);
+} */
+
+.font_size{
+  font-size: 15px !important;
+}
+.file_icon img{
+  width:27px;
+  height:27px;
+}
+@media only screen and (max-width: 600px) {
+  .add_buttons  {
+    float: left;
+    margin-bottom: 10px;
+  }
+  .add_buttons button, .add_buttons p  {
+    margin-left: 0;
+    margin-right: 20px;
+  }
+  .module_width {
+    min-width: 52px;
+  }
+  .peview_andpublish {
+    float: inherit;
+    text-align: left;
+  }
+  .back_and_save_btn {
+    text-align: left;
+    margin-top: 30px;
+  }
+  button.btnSame.mt-4.add_user.save_button.btn.btn-primary {
+    float: inherit;
+  }
+}

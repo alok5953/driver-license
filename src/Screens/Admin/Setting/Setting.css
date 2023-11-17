@@ -1,0 +1,390 @@
+.tabbing_row {
+  width: 100%;
+}
+.tabbing_container {
+  background: #fff;
+  box-shadow: 0px 2px 6px #0000000a;
+  margin: 24px 8px;
+  min-height: 84vh;
+}
+.nav-tabs a {
+  text-align: left;
+  font: normal normal 600 14px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.4;
+  border: none !important;
+  border-bottom: 2px solid transparent !important;
+}
+.nav-tabs .nav-item.show .nav-link,
+.nav-tabs .nav-link.active,
+.nav-tabs .nav-link:focus,
+.nav-tabs .nav-link:hover {
+  background-color: #fff;
+  border: none;
+  font: normal normal 600 14px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #001d92 !important;
+  opacity: 1;
+  border-bottom: 2px solid #001d92 !important;
+}
+.tabbmain_container {
+  padding-left: 0;
+}
+.admin_user {
+  text-align: left;
+  margin: 18px 34px 10px 34px;
+}
+.admin_user h3 {
+  font: normal normal bold 30px/44px Source Sans Pro;
+  letter-spacing: 0.06px;
+  color: #091c2d;
+  opacity: 1;
+  display: inline-block;
+}
+.add_user {
+  float: right;
+}
+button.btnSame.mt-4.add_user.btn.btn-primary {
+  margin-top: 7px !important;
+}
+.user_table {
+  padding: 0 34px;
+  width: 94.5% !important;
+  margin: 0 auto;
+}
+
+.user_table th {
+  font: normal normal bold 13px/17px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #a3a6b4 !important;
+  opacity: 1;
+  text-align: left;
+}
+.user_table td {
+  font: normal normal normal 14px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4d4f5c !important;
+  opacity: 1;
+  text-align: left !important;
+}
+.table td.active {
+  color: #2ef100 !important;
+}
+.table td.inactive {
+  color: #ff3333 !important;
+}
+.table_icon {
+  width: 18px;
+  margin-right: 14px;
+  cursor: pointer;
+}
+.delete_icon {
+  width: 14px;
+  margin-right: 14px;
+  cursor: pointer;
+} 
+.active_icon{
+  width: 28px; 
+  margin-right: 14px;
+  cursor: pointer;
+}
+.play_icon {
+  cursor: pointer;
+}
+.addmore {
+  margin-bottom: 16px;
+}
+
+/*Admin Profile*/
+.admin-section h4 {
+  font: normal normal 600 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.41;
+}
+.admin-section .form-label {
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-transform: capitalize;
+}
+.admin-section .form-control {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cbcbcb;
+  border-radius: 2px;
+  opacity: 1;
+  height: 50px;
+}
+/*App Setting*/
+.app-section h4 {
+  text-align: left;
+  font: italic normal 600 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.41;
+}
+.app-section .custom-control-input {
+  right: 40px;
+  left: auto;
+}
+.app-section .custom-switch {
+  padding-left: 0px;
+}
+.app-section .custom-control-label {
+  width: calc(100% - 70px);
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #333232;
+}
+.app-section .custom-control-label1 {
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #333232;
+}
+.app-section .custom-switch .custom-control-label::before {
+  left: auto;
+  right: -2.25rem;
+  top: 4px;
+  background: #aeaeae 0% 0% no-repeat padding-box;
+  border-radius: 100px;
+  height: 26px !important;
+  width: 54px !important;
+}
+.app-section .custom-switch .custom-control-label::after {
+  left: auto;
+  right: calc(-2.25rem + 29px);
+  background: #ffffff 0% 0% no-repeat padding-box;
+  height: 22px !important;
+  width: 22px !important;
+  border-radius: 100px !important;
+}
+.app-section
+  .custom-switch
+  .custom-control-input:checked
+  ~ .custom-control-label::after {
+  transform: translateX(1.6rem);
+}
+.app-section .custom-control-input:checked ~ .custom-control-label::before {
+  border-color: #4ba0f0;
+  background: #4ba0f0 0% 0% no-repeat padding-box;
+}
+
+.add_usermodal .modal-content {
+  padding: 22px !important;
+}
+.modal-header {
+  border-bottom: 1px solid #707070;
+  padding: 0 0 10px 0 !important;
+}
+.add_usermodal .modal-title {
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091c2d;
+  opacity: 1;
+  width: 100%;
+}
+.add_usermodal .modal-body {
+  padding: 24px 0 0 0;
+}
+.add_usermodal .modal-footer {
+  justify-content: flex-start;
+  padding: 10px 0 10px 0;
+  border-top: 0;
+}
+.generate_pass {
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4ba0f0;
+  opacity: 1;
+  margin: 4px 0 30px 0;
+}
+.add_usermodal input {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cbcbcb;
+  border-radius: 2px;
+  opacity: 1;
+  font: normal normal normal 14px/18px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  height: 50px;
+  /* opacity: 0.5; */
+}
+.add_usermodal select {
+  height: 50px;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url(../../../Images/arrow_dropdown.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 51%;
+}
+.select_input {
+  position: relative;
+}
+.add_usermodal .close {
+  display: none;
+}
+.add_usermodal .modal-dialog {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  height: 92vh;
+}
+.add_usermodal .modal-dialog {
+  max-width: 693px !important;
+}
+.add_usermodal input:focus,
+.add_usermodal select:focus {
+  box-shadow: none;
+  border: 1px solid #cbcbcb;
+}
+.cancel_btn {
+  border: none !important;
+  background: none !important;
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000 !important;
+  opacity: 1;
+}
+.cancel_btn:focus {
+  outline: none !important;
+  box-shadow: none !important;
+}
+.roletable thead th {
+  font: italic normal normal 14px/18px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+  text-align: center;
+}
+.roletable tbody td {
+  font: normal normal normal 14px/18px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+
+.roletable .custom-control {
+  text-align: center;
+  height: auto;
+}
+.roletable .custom-control input {
+  opacity: 0;
+}
+
+.roletable .custom-control-input:checked ~ .custom-control-label::before {
+  color: #fff;
+  border-color: #0f273e;
+  background: #0f273e 0% 0% no-repeat padding-box;
+  border-radius: 4px;
+}
+.roletable
+  .custom-checkbox
+  .custom-control-input:checked
+  ~ .custom-control-label::after {
+  background-image: url("../../../Images/check.svg");
+}
+
+@media only screen and (max-width: 767px) {
+  /* .user_table td,
+  .user_table th {
+    min-width: 100px;
+  } */
+  .admin_user {
+    margin: 20px;
+  }
+  button.btnSame.mt-4.add_user.btn.btn-primary {
+    float: right;
+    margin-bottom: 15px;
+  }
+  .add_usermodal .modal-dialog {
+    max-width: 560px !important;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  .modal {
+    padding-left: 0px !important;
+  }
+  .admin_user h3 {
+    font: normal normal bold 18px/44px Source Sans Pro;
+  }
+  .courselistsection .nav-tabs a {
+    font: normal normal 600 12px/32px Source Sans Pro !important;
+  }
+  .add_usermodal.coupon_box{
+    z-index: 99999;
+    padding: 20px 0px;
+  }
+  .btnSame.btn-primary, .btnSame.btn-primary:hover, .btnSame.btn-primary:focus, .show > .btnnone.btn-primary{
+    padding: 10px 20px !important;
+  }
+}
+
+.custom-radio-wrap1 .form-group:last-child {
+  margin-bottom: 0;
+}
+.custom-radio-wrap1 .form-group label {
+  -webkit-appearance: none;
+  background-color: #dedede;
+  border: 1px solid #dedede;
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05),
+    inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+  padding: 8px;
+  border-radius: 50px;
+  display: inline-block;
+  position: relative;
+  vertical-align: middle;
+  cursor: pointer;
+}
+.custom-radio-wrap1 .form-group .label-text {
+  vertical-align: middle;
+  cursor: pointer;
+  padding-left: 10px;
+  margin-left: -5px;
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.custom-radio-wrap1 .form-group input {
+  display: none;
+  cursor: pointer;
+}
+.custom-radio-wrap1 .form-group input:checked + label {
+  background-color: #4ba0f0;
+  color: #99a1a7;
+  border: 1px solid #dedede;
+}
+.custom-radio-wrap1 label.custom-radio {
+  margin-bottom: 0 !important;
+}
+.custom-radio-wrap1 .form-group input:checked ~ .label-text {
+  font: normal normal normal 16px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.23;
+}
+.custom-radio-wrap1 .form-group input:checked + label:after {
+  content: "";
+  width: 12px;
+  height: 12px;
+  border-radius: 50px;
+  position: absolute;
+  top: 2px;
+  left: 0px;
+  right: 0px;
+  margin: 0 auto;
+  text-align: center;
+  background: #4ba0f0;
+  box-shadow: inset 0px 0px 10px rgba(0, 0, 0, 0.3);
+  text-shadow: none;
+  font-size: 32px;
+  opacity: 0.23;
+}
+
+.fontUpdate{
+  text-transform:capitalize;
+}

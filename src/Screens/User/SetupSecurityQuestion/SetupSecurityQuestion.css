@@ -1,0 +1,105 @@
+.quiz_questioncontainer{
+    width: 92%!important;
+}
+.quiz_questioncontainer .custom-radio-wrap form .form-group .label-text{
+    color: #CBCBCB;
+}
+.quiz_questioncontainer .custom-radio-wrap form .form-group input:checked ~ .label-text{
+    color:#255EAB ;
+}
+.quiz_questioncontainer .custom-radio-wrap form .form-group input:checked + label{
+    background-color: #255EAB;
+    color: #255EAB;
+    border: none; 
+}
+.quiz_questioncontainer .custom-radio-wrap form .form-group label{
+    background-color: #CBCBCB;
+}
+.questionsubmitbtn{
+    width: 188px;
+}
+.questioncancelbtn{
+    width: 188px!important;
+    border: 1px solid #b8b6b6!important;
+    border-radius: 2px!important;
+    background: none!important;
+    margin-left: 23px!important;
+}
+.questioncancelbtn a{
+    color: #b8b6b6 !important;
+}
+.Correct_answerscontainer{
+    background-image: url(../../../Images/currectans.svg);
+    width: 100%;
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    height: 131px;
+    padding: 25px 16px;
+    border-radius: 4px;
+}
+.Correct_answerscontainer span{
+    text-align: left;
+    font: normal normal 600 50px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #0E9B00;
+}
+.Correct_answerscontainer p{
+    font: normal normal 600 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    margin: 8px;
+}
+.failed_answerscontainer{
+    background-image: url(../../../Images/failedmsg.svg);
+    width: 100%;
+    background-size: 100%;
+    /* background-repeat: no-repeat; */
+    height: 131px;
+    padding: 25px 16px;
+    border-radius: 4px;
+}
+.failed_answerscontainer h5{
+    text-align: left;
+    font: normal normal 600 40px/50px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom:0;
+}
+.failed_answerscontainer p{
+    text-align: left;
+    font: normal normal 600 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    opacity: 1;
+    margin-bottom: 8px;
+}
+.UserSecurityQuestion_container .custom-radio-wrap form .form-group input.inputDisplay, .UserSecurityQuestion_container .custom-radio-wrap form .form-group input.inputDisplay:focus{
+    display: block;
+    cursor: default;
+    border:none;
+    border-bottom: 1px solid #cbcbcb;
+    outline: none;
+    box-shadow: none;
+}
+.container_form_group .form-group{
+    width:35%;
+    display: inline-block;
+}
+@media only screen and (max-width: 767px) {
+    .questionsubmitbtn, .questioncancelbtn {
+        width: 160px!important;
+    }
+    .Correct_answerscontainer{
+        background: none;
+        background: #AFFFB2;
+    }
+    .failed_answerscontainer{
+        background: none;
+        background: #E95F5F;
+    }
+    .container_form_group .form-group{
+        width:100%;
+        display: block;
+    }
+  }

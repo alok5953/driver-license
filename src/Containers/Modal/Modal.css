@@ -1,0 +1,157 @@
+.Confirm_Modal {
+    width: 420px;
+    height: 340px;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 5px;
+    border: 0px;
+    outline: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.close_icon {
+    cursor: pointer;
+}
+.Confirmed_cancel {
+    text-align: center;
+    font-size: 23px;
+    color: #010101;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 15px;
+}
+.Confirmed_confirm {
+    text-align: center;
+    font-size: 23px;
+    color: #010101;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 15px;
+}
+.Your_appointment_modal {
+    text-align: center;
+    font-size: 18px;
+    color: #525b63;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 5px;
+}
+.Confirm_divider {
+    background: #e0e0e0;
+    height: 2px;
+    width: 100%;
+    margin-top: 20px;
+}
+.modal_Meeting_time {
+    font-size: 15px;
+    color: #010101;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 12px;
+    text-align: center;
+}
+.modal_Meeting_duration {
+    font-size: 15px;
+    color: #010101;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 10px;
+    text-align: center;
+  }
+  .Cancel_Modal {
+    width: 380px;
+    height: 320px;
+    background: #ffffff;
+    margin: auto;
+    border-radius: 5px;
+    border: 0px;
+    outline: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Cancellation {
+    text-align: center;
+    font-size: 23px;
+    color: #010101;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 25px;
+    padding-left: 14px!important;
+}
+.Your_appointment {
+    text-align: center;
+    font-size: 18px;
+    color: #525b63;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 15px;
+}
+.Modal_CancelApp_buton {
+    background: #9f0000;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 35px;
+    width: 230px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: 0px;
+    margin-top: 21px;
+}
+.reschdule_text {
+    text-align: center;
+    font-size: 23px;
+    color: #010101;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 25px;
+    padding-left: 14px !important;
+}
+.Your_appointment_reschedule {
+    text-align: center;
+    font-size: 18px;
+    color: #525b63;
+    font-weight: 600;
+    margin: 0px;
+    padding-top: 12px;
+    padding: 7px;
+}
+.Modal_RescheduleApp_buton {
+    background: #006edc;
+    border-radius: 5px;
+    color: #ffffff;
+    height: 35px;
+    width: 230px;
+    border: none;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    outline: 0px;
+    margin-top: 21px;
+}
+.ReactModal__Overlay.ReactModal__Overlay--after-open {
+    background: #00000059 !important;
+}
+@media (max-width: 1024px){
+.Cancel_Modal, .Confirm_Modal {
+    width: 50%!important;
+    height: initial!important;
+    }
+    .Modal_CancelApp_buton, .Modal_RescheduleApp_buton{
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 767px) {
+    .Cancel_Modal, .Confirm_Modal{
+      width: 94%!important;
+      height: initial!important;
+    }
+    .Modal_CancelApp_buton, .Modal_RescheduleApp_buton{
+        margin-bottom: 20px;
+    }
+}

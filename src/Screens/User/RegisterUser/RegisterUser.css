@@ -1,0 +1,229 @@
+.userregisterpage{
+    top: 136px;
+}
+.userregisterpage span{
+    color: #515151;
+}
+.usersignin{
+    margin-top: 0;
+}
+.registerformcontainer input{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CBCBCB;
+    border-radius: 2px;
+    opacity: 1;
+    width: 90%;
+}
+.registerformcontainer select{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    border: 1px solid #CBCBCB;
+    border-radius: 2px;
+    opacity: 1;
+    width: 90%;
+}
+.registerformcontainer label{
+    text-align: left;
+    font: normal normal normal 15px/19px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.formbelowtext{
+    text-align: left;
+    font: normal normal normal 14px/18px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.formbelowtextres{
+    text-align: left;
+    font: normal normal normal 15px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #f17232;
+    opacity: 1;
+}
+.registerformcontainer .samecheckbox .custom-control{
+    text-align: left;
+}
+.registerformcontainer .samecheckbox label{
+    width: 90%;
+}
+.usersignright_container{
+    background: #FFFFFF 0% 0% no-repeat padding-box;
+    box-shadow: 0px 0px 11px #00000029;
+    border-radius: 6px;
+    opacity: 1;
+    padding: 10px 0 0 0!important;
+}
+.userlicensingtext p{
+    text-align: left;
+    font: normal normal normal 20px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.5;
+    width:80%;
+}
+.userlicensingtext span{
+    text-align: left;
+    font: normal normal normal 20px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.userlicensingtotal p{
+    text-align: left;
+    font: normal normal 600 22px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.userlicensingtext{
+    border-bottom: 1px solid #707070;
+    opacity: 0.5;
+    margin-bottom: 10px;
+    padding-bottom: 10px;
+}
+.userlicensingtotal span{
+    text-align: left;
+    font: normal normal 600 20px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.purchasetext{
+    text-align: left;
+    font: normal normal normal 16px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    opacity: 1;
+    margin-bottom: 0;
+}
+.purchasetext span{
+    text-align: left;
+    font: normal normal normal 16px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4BA0F0;
+}
+.userbackbtn{
+    text-align: left;
+    font: normal normal 600 21px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #9E9E9E!important;
+    opacity: 1;
+    background: none!important;
+    border: none!important;
+    margin: 0!important;
+}
+.userbackbtn a{
+    color: #9E9E9E!important;
+}
+.Shippingbtntext{
+    background: #FFFFFF 0% 0% no-repeat padding-box!important;
+    box-shadow: 0px 0px 2px #00000029!important;
+    border: 1px solid #E9E9F0!important;
+    border-radius: 6px!important;
+    opacity: 1!important;
+    margin-top: 0!important;
+}
+.Shippingbtntext:hover{
+    background: #00A5B8 0% 0% no-repeat padding-box!important;
+}
+.Shippingbtntext:hover .usershippingimg{
+    display:none;
+}
+.Shippingbtntext:hover .usershippingimgwhite{
+    display: inline-block;
+}
+.Shippingbtntext a{
+    text-align: left!important;
+font: normal normal 600 18px/25px Source Sans Pro!important;
+letter-spacing: 0px!important;
+color: #00A5B8!important;
+opacity: 1!important;
+}
+.Shippingbtntext:hover a{
+    color: #fff!important;
+}
+.usershippingimg{
+    margin-right: 11px;
+}
+.usershippingimgwhite{
+    display: none;
+    margin-right: 11px;
+}
+.react-date-picker.react-date-picker--closed.react-date-picker--enabled.date_input_css,
+.react-date-picker.react-date-picker--open.react-date-picker--enabled.date_input_css{
+    width: 94%;
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #cbcbcb;
+    border-radius: 2px!important;
+    height: 50px;
+    opacity: 1;
+    border: none!important;
+}
+.react-date-picker__inputGroup__input{
+    border: none!important;
+    height: 43px!important;
+    padding: 0px;
+    margin: 0px 1px 0px 3px !important;
+}
+.react-date-picker__inputGroup__input:invalid{
+    background: inherit!important;
+}
+.react-date-picker__inputGroup__input:invalid:focus, .registerformcontainer input:focus{
+    outline: none;
+}
+button.react-date-picker__clear-button.react-date-picker__button {
+    display: none;
+}
+.eyeSign {
+    position: absolute;
+    right: 15%;
+    top: 53%;
+    cursor: pointer;
+}
+.textopacity h5{
+    opacity: 1;
+}
+/* 
+.datepikcer_css .react-datepicker-wrapper{
+    width: 90%;
+      background: #ffffff 0% 0% no-repeat padding-box;
+      border: 1px solid #cbcbcb;
+      border-radius: 2px;
+      height: 50px;
+      opacity: 1;
+  }
+  .datepikcer_css input{
+    border: none;
+    width: 90%;
+    height: 48px;
+    text-indent: 14px;
+  } */
+
+.userlicensingtext.terms_box {
+    opacity: 1;
+    border: none;
+    margin:0px;
+}
+.terms_link{
+    text-align: left;
+    font: normal normal normal 15px/19px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4BA0F0;
+    display: block;
+    cursor: pointer;
+}
+.btn_register{
+    color: #000;
+    text-align: center;
+}
+.country_select .form-control{
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #495057;
+}
+.date_section .react-datepicker-wrapper{
+    display: block;
+    width:90%;
+}

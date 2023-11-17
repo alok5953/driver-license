@@ -1,0 +1,139 @@
+.previewCourse h1 {
+  font: normal normal bold 22px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  position: relative;
+}
+.previewCourse h1:after {
+  position: absolute;
+  content: "";
+  border: 2px solid #001d92;
+  bottom: -2px;
+  left: 0px;
+  width: 24%;
+}
+.backKey {
+  float: right;
+}
+.backKey a,
+.backKey a:hover {
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4ba0f0;
+}
+.previewPara p {
+  font: normal normal normal 13px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  margin-bottom: 10px;
+}
+.previewCourse h5 {
+  font: normal normal bold 19px/24px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4ba0f0;
+}
+.paraDetail p {
+  font: normal normal normal 19px/24px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+}
+.previewCourse h4 {
+  font: normal normal 600 26px/33px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4ba0f0;
+}
+.previewImage {
+  overflow: hidden;
+  height: 264px;
+  width: 100%;
+}
+.previewImage img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.quizSections .card-header {
+  overflow: hidden;
+  position: relative;
+}
+.quizSections .card-header span {
+  position: absolute;
+  content: "";
+  background: #4ba0f0 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  font: normal normal 600 20px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #ffffff;
+  padding: 9px 10px;
+  top: 0;
+  left: 0;
+  width: 55px;
+  min-height: 48px;
+  height: 100%;
+}
+.quizSections .card-header h6 {
+  padding: 12px 0px 10px 70px;
+}
+.border-none {
+  border: none !important;
+}
+.radiobox {
+  background: #deefff 0% 0% no-repeat padding-box;
+  border-radius: 2px;
+  display: inline-block;
+  min-width: 16%;
+  padding: 12px;
+  margin-right: 20px;
+  margin-bottom: 10px;
+}
+.radiobox p {
+  font: normal normal 600 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #0f273e;
+  opacity: 1;
+  margin: 0px;
+}
+.radiobox span {
+  border: 1px solid #0f273e;
+  height: 28px;
+  width: 28px;
+  border-radius: 100px;
+  display: inline-block;
+  vertical-align: middle;
+  position: relative;
+  margin-right: 5px;
+  margin-top: -4px;
+}
+.radiobox span .blackBorder {
+  position: absolute;
+  content: "";
+  background: #0f273e 0% 0% no-repeat padding-box;
+  height: 20px;
+  width: 20px;
+  border-radius: 100px;
+  left: 3px;
+  top: 7px;
+}
+.embed-responsive {
+  margin-bottom: 10px;
+}
+.embed-responsive iframe {
+  border: 1px solid #707070;
+  border-radius: 6px;
+}
+.embed-responsive .embed-responsive-item .ytp-button {
+  display: none !important;
+  opacity: 0;
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .radiobox {
+    min-width: 44%;
+    margin-right: 20px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .radiobox {
+    width: 100%;
+  }
+}

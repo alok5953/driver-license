@@ -1,0 +1,131 @@
+/* AddQuiz */
+.QuizLablePadding {
+  padding-left: 0 !important;
+}
+.quizQuestion {
+  padding: 2rem;
+}
+.quizQuestion h3 {
+  text-align: left;
+  font-size: 18px; 
+  color: #091c2d;
+  opacity: 1;
+  font: normal normal 600 18px/23px Source Sans Pro;
+}
+span.closeIcon.removeoption.remove_css_add {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+  text-align: center;
+  background-color: red;
+  color: #fff;
+  transform: rotate(90deg);
+  float: right;
+  margin-top: -35px;
+  margin-right: 11px;
+}
+.checkBoxInput label {
+  text-align: left;
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091c2d;
+  opacity: 1;
+}
+.addQuestion label {
+  text-align: left;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091c2d;
+  opacity: 1;
+}
+.addQuestion {
+  padding: 0 !important;
+  margin-top: 33px;
+}
+.answerQuiz {
+  text-align: left;
+  font: italic normal 600 18px/23px Source Sans Pro !important;
+  letter-spacing: 0px;
+  color: #22d400 !important;
+  opacity: 1;
+}
+.addQuizbtn {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 22px;
+}
+button.btn.saveQuizQuestion {
+  background-color: #4ba0f0;
+  border-color: #4ba0f0;
+  border-radius: 4px;
+  opacity: 1;
+  width: 136px;
+}
+.addQuizbtn button.btn.btn-outline-primary {
+  border: 1px solid #69b0f2;
+  border-radius: 2px;
+  width: 150px;
+  height: 43px;
+}
+.addQuizbtn button.btn.btn-outline-primary:hover {
+  background: none;
+  color: #4ba0f0;
+}
+button.btn.backQuizQuestion {
+  text-align: center;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  border: 0;
+  text-decoration: none;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+button.btn.backQuizQuestion:focus {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+}
+button.btn.saveQuizQuestion:focus {
+  text-decoration: none;
+  border: none;
+  box-shadow: none;
+}
+.form-group.col-md-4.QuizLablePadding {
+  margin-top: 25px;
+}
+.optionOne {
+  margin-right: 35px;
+}
+.quizLable label span{
+  float: right;
+  font-size: 25px;
+  transform: rotate(47deg);
+}
+
+.form-check-input.is-valid~.form-check-label, .was-validated .form-check-input:valid~.form-check-label{
+  color: #091c2d !important;
+}
+.form-control.ant-select-multiple, .ant-select-multiple .ant-select-selector{
+  padding:0px !important;
+  height:auto;
+  min-height: 50px;
+}
+.removeoption{
+  display: inline-block;
+    /* padding: 10px 21px 19px; */
+    text-align: left;
+    width: 90%;
+    margin-left: 104px !important;
+
+}
+.select_input .ant-select-selection-overflow{
+  font: normal normal normal 12px/15px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  -webkit-appearance: none!important;
+  appearance: none!important;
+  background-image: url(../../../Images/arrow_dropdown.svg)!important;
+  background-repeat: no-repeat!important;
+  background-position: 95% 51%!important;
+}
+/* end Add Quiz */

@@ -1,0 +1,245 @@
+.coursesection h1 {
+  font: normal normal bold 40px/44px Source Sans Pro;
+  letter-spacing: 0.08px;
+  color: #091c2d;
+}
+.formBody h5.course_head{
+  font: italic normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091C2D;
+}
+.allsameInput .headall_text, .customCheckbox .custom-control-label.headall_text{
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.coursesection h3 {
+  position: relative;
+}
+.coursesection h3 .title {
+  font: normal normal 600 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #0f273e;
+  opacity: 1;
+  position: absolute;
+  bottom: 25px;
+  left: 54px;
+}
+.coursesection h3 span {
+  font: normal normal bold 67px/84px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #121d53;
+  opacity: 0.15;
+}
+
+.sectionBorder {
+  border: 1px solid #f3f3f3;
+}
+.formBody h5 {
+  font: normal normal 600 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.allsameInput textarea.form-control {
+  height: auto;
+}
+
+.customCheckbox .custom-control-input {
+  opacity: 1;
+  left: auto;
+  right: 7px;
+}
+
+.customCheckbox .custom-control-label {
+  float: left;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  width: calc(100% - 46px);
+  text-align: left;
+}
+
+.customCheckbox .custom-control-label::before {
+  left: auto;
+  right: 7px;
+}
+
+.customCheckbox .custom-control-label::after {
+  left: auto;
+  right: 7px;
+}
+.inputdiv {
+  position: relative;
+}
+.dollarinput {
+  position: absolute;
+  top: 13px;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+  left: 10px;
+}
+.timeinput {
+  position: absolute;
+  top: 13px;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+  right: 10px;
+}
+.widthGroup.form-row {
+  min-width: 25%;
+  display: inline-flex;
+  margin: 0px 10px 0px -5px;
+}
+
+.headsmall {
+  font: normal normal 600 17px/22px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+}
+
+.btnSame.btnBorder.btnPadding {
+  padding: 10px 23px !important;
+}
+.btnSame.btnBorder.btn-primary,
+.btnSame.btnBorder.btn-primary:hover,
+.btnSame.btnBorder.btn-primary:focus,
+.btnnone.btnBorder.btn-primary:not(:disabled):not(.disabled).active,
+.btnnone.btnBorder.btn-primary:not(:disabled):not(.disabled):active,
+.show > .btnnone.btn-primary {
+  background: transparent !important;
+  letter-spacing: 0px;
+  color: #4ba0f0 !important;
+  border: 1px solid #4ba0f0 !important;
+}
+.customfieldSpan {
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091c2d;
+  opacity: 0.6;
+  float: right;
+}
+.btnSame a,
+.btnSame a:hover {
+  color: #fff;
+}
+.allsameInput .form-label.customtextLabel {
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  width: calc(100% - 2px);
+  text-align: left;
+}
+.form-control.ant-select-multiple.selectformControl, .ant-select-multiple .ant-select-selector.selectformControl{
+  max-width:500px !important;
+  padding:0px !important;
+  height:auto !important;
+}
+.form-control.ant-select-multiple.selectformControl.ant-select:not(.ant-select-customize-input) .ant-select-selector{
+  border:none !important;
+}
+.form-control.ant-select-multiple .ant-select-selection-item {
+  height: 20px;
+  margin-top: 2px;
+  margin-bottom: 2px;
+  line-height: 15px;
+}
+.margin_select{
+  margin-top: 27px;
+}
+
+/*file input*/
+.file-input__input {
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  color: #4BA0F0;
+}
+
+.allsameInput .form-label.file-input__label {
+  cursor: pointer;
+  display: inline-flex;
+  text-align: center;
+  font: normal normal normal 13px/17px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4BA0F0;
+  padding: 11px 39px;
+  border: 1px solid #4BA0F0;
+  border-radius: 4px;
+  margin-top: 13px;
+}
+.head_text_lab{
+  font: normal normal normal 18px/23px Source Sans Pro;
+letter-spacing: 0px;
+color: #000000;
+}
+.popup_input{
+  position: absolute;
+  left: 0px;
+  top: -13px;
+  opacity: 0;
+}
+.add_link{
+  text-decoration: underline;
+  font: normal normal normal 14px/18px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4BA0F0;
+}
+.form_group_input{
+  width: 43%;
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 15px;
+  position: relative;
+}
+.form_group_input span{
+  position: absolute;
+  transform: inherit;
+  right: 10px;
+  top: 12px;
+}
+.custom-control.custom_tab_control{
+  max-width: 25.33%;
+  display: inline-block;
+  margin: 10px 0px;
+  width: 25.33%;
+}
+
+@media screen and (min-width: 991px) and (max-width: 1200px) {
+  .widthGroup.form-row {
+    min-width: 30%;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 991px) {
+  .widthGroup.form-row {
+    min-width: 50%;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .widthGroup.form-row {
+    width: 100%;
+  }
+  .btnSame.btnPadding {
+    padding: 10px 20px !important;
+  }
+  .btnSame.btnBorder.btnPadding {
+    padding: 10px 14px !important;
+  }
+  .form_group_input{
+    width: 100%;
+    margin-right: 0px;
+  }
+  .courselistsection h1 {
+    font: normal normal bold 19px/30px Source Sans Pro !important;
+  }
+}
+

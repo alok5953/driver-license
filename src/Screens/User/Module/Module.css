@@ -1,0 +1,223 @@
+.breadcrumbBg h1.courseHead {
+  font: normal normal bold 22px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #ffca05;
+  opacity: 1;
+}
+.audio_button {
+  cursor: pointer;
+}
+.grapesjsContent{
+  object-fit: contain !important;
+}
+.grapesjsContent p {
+    /* text-align: left; */
+    font: normal normal normal 18px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.5;
+}
+.grapesjsContent h5 {
+  font: normal normal bold 22px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.grapesjsContent img {
+  max-width: 100%;
+  max-height: 100%;
+  display: block;
+}
+
+/*Course Detail*/
+.courseHeadPara h5 {
+  position: relative;
+  text-align: left;
+  font: normal normal bold 22px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.courseHeadPara h5:after {
+  position: absolute;
+  content: "";
+  border-bottom: 2px solid #001d92;
+  height: 2px;
+  width: auto;
+  left: 0px;
+  bottom: -2px;
+  min-width: 60px;
+}
+.courseHeadPara p {
+  text-align: left;
+  font: normal normal normal 18px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+}
+
+.enrollBar {
+  text-align: left;
+}
+.enrollBar h4 {
+  font: normal normal 600 21px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #001d92;
+  opacity: 1;
+}
+.enrollBar ul li {
+  font: normal normal normal 20px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.5;
+}
+.enrollBar .priceList span {
+  font: normal normal bold 18px/9px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #001d92;
+  opacity: 1;
+  display: block;
+  width: 100%;
+}
+.enrollBar .priceList h6 {
+  font: normal normal bold 40px/61px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #001d92;
+  opacity: 1;
+  margin: 0px;
+}
+.enrollBar .priceList p {
+  font: italic normal 600 21px/30px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #656565;
+  opacity: 1;
+  margin: 0px;
+}
+.d-row-flex {
+  display: flex !important;
+  flex-wrap: wrap !important;
+  margin-right: -15px !important;
+  margin-left: -15px !important;
+  padding:0px !important;
+}
+.timeDiv {
+  background: #F3F3F3 0% 0% no-repeat padding-box;
+  border-radius: 3px;
+  padding: 1px 12px;
+}
+.timeDiv span {
+  text-align: left;
+  font: normal normal 600 10px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #091C2D;
+  opacity: 0.52;
+}
+.timeDiv p{
+  text-align: left;
+  font: normal normal 600 17px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #255EAB;
+  opacity: 1;
+  margin-bottom: 7px;
+}
+.timeDiv .btn.btn-primary{
+  background:transparent;
+  font: normal normal 600 18px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #255EAB;
+  border-color: transparent;
+  height: 60px;
+  padding: 5px;
+}
+.timeDiv .btn.btn-primary:focus{
+  outline: none;
+  box-shadow: none;
+}
+
+.timeDiv .btn-primary:not(:disabled):not(.disabled).active, .timeDiv .btn-primary:not(:disabled):not(.disabled):active, .show> .timeDiv .btn-primary.dropdown-toggle {
+  color: #255EAB;
+  background-color: transparent;
+  border-color: transparent !important;
+}
+.coursemodule_main{
+  top:50px;
+  position: relative;
+}
+
+/*modal*/
+.modal_download .modal-content {
+  padding: 0px !important;
+}
+.modal_download .modal-header, .modal_download .modal-footer{
+  background: #F5F7FF 0% 0% no-repeat padding-box;
+  /* box-shadow: 0px 3px 6px #00000029; */
+  border: 1px solid #CBCBCB;
+  padding:20px !important;
+  text-align: center;
+  justify-content: center;
+}
+.modal_download .modal-header .modal-title{
+  font: normal normal 600 28px/50px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #255EAB;
+}
+.add_usermodal.modal_download .close {
+  display: block;
+  font-size: 35px;
+  opacity: 1;
+  margin-top: -25px;
+}
+.add_usermodal.modal_download .btn.btn-primary{
+  background: #4BA0F0 0% 0% no-repeat padding-box;
+  border-radius: 9px;
+  padding: 15px 16px !important;
+}
+.add_usermodal.modal_download table, .add_usermodal.modal_download .table-responsive{
+  overflow-x: hidden;
+  margin:0px;
+}
+.add_usermodal.modal_download table td{
+  text-align: left;
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000 !important;
+  padding: 10px 25px;
+}
+
+.add_usermodal.modal_download table tr{
+  background: #FFFFFF 0% 0% no-repeat padding-box;
+  border-bottom: 0.5px solid #CBCBCB;
+  opacity: 1;
+}
+
+.add_usermodal.modal_download table tr:last-child{
+  border:none !important;
+}
+
+.add_usermodal.modal_download table tr td:last-child{
+  text-align: right !important;
+}
+
+
+@media screen and (max-width:767px){
+  iframe {
+    max-width: 100%;
+    margin:0 auto;
+  }
+  .user_table{
+    padding:0px !important;
+  }
+  .modal_download .modal-header .modal-title {
+    font: normal normal 600 22px/50px Source Sans Pro;
+  }
+  .add_usermodal.modal_download table, .add_usermodal.modal_download .table-responsive{
+    overflow-x: auto !important;
+    margin:0px;
+  }
+
+  .add_usermodal.modal_download table tbody{
+    width: 100%;
+    display: inline-table;
+  }
+
+}

@@ -1,0 +1,102 @@
+.courselistsection h1 {
+  font: normal normal bold 30px/44px Source Sans Pro;
+  letter-spacing: 0.06px;
+  color: #091c2d;
+}
+.courselistsection .user_table {
+  width: 100% !important;
+}
+.tablepage {
+  justify-content: flex-end;
+}
+.tablepage .page-item.active .page-link {
+  border-color: #091c2d;
+  background: #091c2d 0% 0% no-repeat padding-box;
+  color: #fff;
+}
+.tablepage .page-item {
+  width: 31px;
+  height: 31px;
+  margin: 0px 5px;
+}
+.tablepage .page-item .page-link {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #e8e9ec;
+  border-radius: 5px;
+  font: normal normal normal 10px/15px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #4d4f5c;
+}
+.has-search {
+  position: relative;
+  width: 41%;
+  display: inline-block;
+}
+.has-search .form-control {
+  padding-left: 2.375rem;
+  height: 40px;
+  font: normal normal normal 15px/25px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #43425d;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #efefef;
+  border-radius: 4px;
+}
+.has-search .form-control::-webkit-input-placeholder {
+  color: #43425d;
+}
+.has-search .form-control-feedback {
+  position: absolute;
+  z-index: 2;
+  display: block;
+  width: 2.375rem;
+  height: 2.375rem;
+  line-height: 37px;
+  text-align: center;
+  pointer-events: none;
+  color: #aaa;
+  font-size: 17px;
+}
+.has-select {
+  position: relative;
+  width: 25%;
+  display: inline-block;
+}
+.has-select .form-control {
+  background-color: #ffffff;
+  box-shadow: 0px 2px 3px #0000000d;
+  border: 1px solid #d7dae2;
+  border-radius: 4px;
+  height: 35px;
+  padding: 0px 7px;
+  -webkit-appearance: none;
+  appearance: none;
+  background-image: url(../../../Images/header/small-down.svg);
+  background-repeat: no-repeat;
+  background-position: 95% 51%;
+  padding-left: 20px !important;
+  width: 100%;
+  background-size: auto;
+}
+.page-link span {
+  font-size: 15px;
+}
+.width_data{
+  width: 200px;
+  display: block;
+  word-break: break-word;
+}
+
+@media screen and (max-width: 576px) {
+  .has-search {
+    width: 59%;
+  }
+  .has-select {
+    width: 47%;
+  }
+}
+
+
+button.btn.rem i {
+    color: #4ba0f0;
+}

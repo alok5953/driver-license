@@ -1,0 +1,6 @@
+.success_content{
+    margin-top:100px;
+}
+.success_content.payment_container button {
+    width: 329px;
+}

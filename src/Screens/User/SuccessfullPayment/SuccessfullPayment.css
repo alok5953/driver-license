@@ -1,0 +1,117 @@
+.payment_container{
+    margin-top: 150px;
+}
+.payment_container h5{
+    font: normal normal normal 40px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #00B837;
+    opacity: 1;
+    margin-bottom: 13px;
+}
+.payment_container h4{
+    font: normal normal 600 27px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    margin-bottom: 13px;
+}
+.payment_container p{
+    font: normal normal normal 20px/32px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.link_profile{
+    font: normal normal 600 16px/24px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #255EAB!important;
+    opacity: 1;
+    margin-top: 14px;
+}
+.payment_container button{
+    width: 188px;
+}
+
+/*modal*/
+.thankyou_modal .modal-content{
+    padding:25px;
+}
+.thankyou_modal .modal-content .modal-title{
+    font: normal normal 600 34px/42px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.thankyou_modal .modal-header{
+    border:none;
+}
+.thankyou_modal .modal-body h5{
+    font: normal normal 600 17px/22px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+}
+.thankyou_modal .close, .thankyou_modal .close:hover, .thankyou_modal .close:focus{
+    background: #F35656;
+    opacity: 1 !important;
+    color: #fff !important;
+    padding: 0px 5px 0px !important;
+}
+.rating span{
+    cursor: pointer;
+}
+
+/*star rating*/
+@media only screen and (max-width: 767px) {
+    .payment_container {
+     margin-top: 50px;
+    }
+  }
+
+
+  .star-rating {
+    font-size: 23px;
+    padding: 0.25em 0.375em;
+    display: inline-flex;
+    flex-flow: row-reverse;
+    overflow: hidden;
+    border-radius: 0.75em;
+    background-color: white;
+  }
+  .star-rating input {
+    cursor: pointer;
+    position: relative;
+    padding: 0;
+    width: 1em;
+    height: 1em;
+    float: left;
+    text-align: center;
+    line-height: 1em;
+    margin:0px 5px 0px 0px;
+  }
+  .star-rating input:before,
+  .star-rating input:after {
+    display: block;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    position: absolute;
+  }
+  .star-rating input:before {
+    content: "";
+    background-color: white;
+  }
+  .star-rating input:after {
+    content: "\f005";
+    font-family: FontAwesome;
+    color: #eee;
+    transition: color 0.2s;
+  }
+  .star-rating input:checked:after,
+  .star-rating input:checked ~ input:after {
+    color: #fc0;
+    -webkit-animation: 0.5s dance infinite;
+            animation: 0.5s dance infinite;
+  }
+  

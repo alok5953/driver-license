@@ -1,0 +1,163 @@
+.profileSection h5 {
+  text-align: left;
+  font: normal normal 600 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.41;
+}
+.profileSection .form-label {
+  text-align: left;
+  font: normal normal normal 15px/19px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1; 
+}
+.profileSection h4 {
+  text-align: left;
+  font: normal normal 600 18px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 0.41;
+}
+.labelFirst {
+  text-align: left;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  opacity: 1;
+}
+.autocompleteInput{
+background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #cbcbcb;
+    border-radius: 2px;
+    height: 50px;
+    opacity: 1;
+    width: 100%;
+    text-indent: 10px;
+}
+.mainSection .bgInput .form-group .form-control {
+  background: #ececec 0% 0% no-repeat padding-box;
+  border: 1px solid #cbcbcb;
+  border-radius: 2px;
+  opacity: 1;
+}
+.mainSection .profileSection .nav-tabs .nav-item.show .nav-link,
+.mainSection .profileSection .nav-tabs .nav-link.active,
+.mainSection .profileSection .nav-tabs .nav-link:focus,
+.mainSection .profileSection .nav-tabs .nav-link:hover {
+  background-color: #fff;
+  border: none;
+  font: normal normal 600 14px/32px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #255eab !important;
+  opacity: 1;
+  border-bottom: 2px solid #255eab !important;
+}
+.outlineBtn,
+.outlineBtn:hover {
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #255eab;
+  border-radius: 2px;
+  font: normal normal normal 14px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #255eab;
+  padding: 5px 18px;
+}
+.react-date-picker.react-date-picker--closed.react-date-picker--enabled.date_input_css,
+.react-date-picker.react-date-picker--open.react-date-picker--enabled.date_input_css{
+  width: 90%;
+  background: #ffffff 0% 0% no-repeat padding-box;
+  border: 1px solid #cbcbcb;
+  border-radius: 2px!important;
+  height: 50px;
+  opacity: 1;
+  border: none!important;
+}
+.react-date-picker__inputGroup__input{
+  border: none!important;
+  height: 43px!important;
+}
+.react-date-picker__wrapper{
+  color: #000;
+  text-indent: 10px;
+}
+.pac-target-input:not(:-webkit-autofill){
+  color: #000;  
+}
+.active{
+  color: #000!important;
+}
+.profileSection .profile-form h5, .profileSection .profile-form h4{
+  opacity: 1;
+}
+.document-row .form-label{
+  min-height: 60px;
+}
+.info-body {
+  width: 100%;
+  display: block;
+  background: #ebf4ff;
+  padding:15px;
+}
+.info-body .documentBtn{
+  background: transparent;
+  color: #0083ff;
+  font-weight: bold;
+  border: 1px solid #0083ff;
+  font: normal normal normal 14px/20px Source Sans Pro;
+  letter-spacing: 0px;
+  padding: 5px 18px;
+  width: 100%;
+}
+.recent-info{
+  display: block;
+  width: 100%;
+  background: #ffdea0b0;
+  padding: 10px;
+  overflow: hidden;
+}
+.recent-info img{
+  height: 25px;
+  width: 25px;
+  display: inline-block;
+  text-align: left;
+}
+.recent-info p{
+  color: #000;
+  display: inline-block;
+  width: calc(100% - 30px);
+  vertical-align: top;
+  padding: 0px 7px;
+  text-align: left;
+}
+.recent-info p span{
+  text-decoration: underline;
+}
+.img_max{
+  max-width: 100%;
+}
+.profile_label label{
+  text-align: left;
+  font: normal normal normal 18px/23px Source Sans Pro;
+  letter-spacing: 0px;
+  color: #000000;
+  text-transform: capitalize;
+}
+.profile_label .label-text{
+  font-weight: normal;
+}
+.user_profile_text select, .user_profile_text input, .user_profile_text select, .user_profile_text .form-control{
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #495057;
+  height: 50px;
+}
+.admin_user iframe{
+  border: 1px solid #ddd;
+}
+@media screen and (max-width: 576px) {
+  .nav-tabs a {
+    font: normal normal 600 13px/32px Source Sans Pro !important;
+  }
+}

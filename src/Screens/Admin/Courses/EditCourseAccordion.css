@@ -1,0 +1,350 @@
+.accrodion_container .card {
+    margin: 0;
+    border: none !important;
+    border-bottom: 1px solid #f3f3f3 !important;
+    background: #fcfcfc;
+  }
+  .accrodion_container {
+    margin: 20px 0;
+  }
+  .accrodion_container .card-header {
+    font: normal normal 600 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    background: #fcfcfc;
+    position: relative;
+    border-bottom: none !important;
+  }
+  .collapse.show .card-header {
+    border: none !important;
+  }
+  .accrodion_container .card-header::after {
+    position: absolute;
+    right: 15px;
+    top: 13px;
+    /* background: url(/static/media/down.9f23d8d0.svg); */
+    background-repeat: no-repeat;
+    height: 8px;
+    width: 15px;
+    border: none;
+  }
+  .accordion {
+    background: #fcfcfc;
+    padding: 0 13px 16px 13px;
+  }
+  .courseAccordion .card-body {
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 30px !important;
+  }
+  .accrodion_container .card-body p {
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.6;
+    margin: 0 0 12px 0;
+    cursor: pointer;
+  }
+  .module_container label {
+    font: normal normal normal 15px/19px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  .module_container input {
+    font: normal normal normal 15px/19px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+    width: 370px;
+    height: 50px;
+  }
+  .message_box {
+    border: 1px solid #cbcbcb;
+    border-radius: 2px;
+    /* width: 570px; */
+    min-height: 258px;
+  }
+  .module_button {
+    text-align: right;
+    margin-top: 60px;
+  }
+  button.cancel_btn.back_btn.btn.btn-primary {
+    box-shadow: none;
+    margin-top: 7px;
+    margin-right: 20px;
+  }
+  
+  button.btnSame.mt-4.add_user.peview_btn.btn.btn-primary a {
+    color: #4ba0f0;
+  }
+  
+  .accrodian_maincontainer {
+    background: #fcfcfc;
+    padding: 10px 10px 30px 10px;
+  }
+  button.btnSame.mt-4.add_user.peview_btn.btn.btn-primary {
+    border: 1px solid #4ba0f0;
+    border-radius: 4px;
+    opacity: 1;
+    float: left;
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #4ba0f0;
+    background: none;
+    padding: 6px 20px !important;
+  }
+  .btn-primary:not(:disabled):not(.disabled).active,
+  .btn-primary:not(:disabled):not(.disabled):active,
+  .show > .btn-primary.dropdown-toggle {
+    background: none !important;
+  }
+  /* button.btnSame.mt-4.add_user.saveuser_btn.btn.btn-primary
+  .accrodian_maincontainer.btn-primary:not(:disabled):not(.disabled).active, 
+  .btn-primary:not(:disabled):not(.disabled):active, 
+  .show > .btn-primary.dropdown-toggle{
+      background: none!important;
+  } */
+  div#panel1a-header {
+    background: #fcfcfc;
+    box-shadow: none !important;
+    padding: 0 20px;
+    border: none;
+    /* border-bottom: 1px solid #f3f3f3; */
+  }
+  .MuiPaper-elevation1 {
+    box-shadow: none !important;
+  }
+  .MuiCollapse-container.MuiCollapse-entered {
+    position: relative;
+  }
+  .MuiCollapse-container.MuiCollapse-entered::after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 1px;
+    background: #f3f3f3;
+    left: 0;
+    right: 0;
+    bottom: -10px;
+  }
+  .MuiAccordionDetails-root {
+    background: #fcfcfc;
+    padding-top: 0 !important;
+    padding-bottom: 0 !important;
+    padding-left: 40px !important;
+  }
+  .accrodian_text {
+    font: normal normal 600 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 1;
+  }
+  .addheading_text {
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    opacity: 0.6;
+  }
+  
+  .button-down {
+    border-radius: 50%;
+    transition: all 0.2s linear;
+    position: absolute;
+    width: 11%;
+    /* z-index: 999999999999999999 !important; */
+    float: right;
+    right: 0;
+  }
+  .button-down::after {
+    content: "";
+    position: absolute;
+    left: 17px;
+    /* z-index: 11; */
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #cbcbcb;
+    border-left: 2px solid #cbcbcb;
+    top: 19px;
+    transform: rotate(225deg);
+    right: 0;
+  }
+  .button-up {
+    border-radius: 50%;
+    transition: all 0.2s linear;
+    position: absolute;
+    width: 11%;
+    /* z-index: 999999999999999999 !important; */
+    float: right;
+    right: 0;
+  }
+  .button-up::after {
+    content: "";
+    position: absolute;
+    left: 17px;
+    z-index: 11;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border-top: 2px solid #cbcbcb;
+    border-left: 2px solid #cbcbcb;
+    top: 19px;
+    transform: rotate(400deg);
+    right: 0;
+  }
+  .message_box {
+    padding: 10px;
+  }
+  .text_edit,
+  .add_paragraph {
+    background: #eff7ff 0% 0% no-repeat padding-box;
+    padding: 6px;
+    margin-bottom: 10px;
+  }
+  .text_edit p {
+    font: normal normal 600 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+    display: inline-block;
+    margin: 0;
+  }
+  .textedit_img {
+    float: right;
+  }
+  .add_paragraph p {
+    font: normal normal normal 14px/18px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .addtextedit_img {
+    float: right;
+  }
+  .add_paragraphtext {
+    margin-top: 20px;
+  }
+  
+  .uploadOuter {
+    text-align: center;
+    padding: 20px;
+  }
+  .uploadOuter strong {
+    padding: 0 10px;
+  }
+  .dragBox {
+    width: 100%;
+    margin: 0 auto;
+    position: relative;
+    text-align: center;
+    font-weight: bold;
+    line-height: 95px;
+    color: #999;
+    border: 1px dashed #cbcbcb;
+    display: inline-block;
+    transition: transform 0.3s;
+    padding: 50px 0 20px 0;
+  }
+  .or_imgtext {
+    font: normal normal normal 12px/15px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #cbcbcb;
+    display: block;
+  }
+  .dragBox input[type="file"] {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+  }
+  .draging {
+    transform: scale(1.1);
+  }
+  #preview {
+    text-align: center;
+  }
+  #preview img {
+    max-width: 100%;
+  }
+  .one_rowimg {
+    font: normal normal normal 10px/13px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .addimg_container .input_type {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px solid #cbcbcb;
+    border-radius: 2px;
+    width: 92px !important;
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #000000;
+  }
+  .imgadd_usermodal {
+    margin-bottom: 4px !important;
+  }
+  .addimg_container {
+    padding-top: 10px !important;
+  }
+  .uploadOuter {
+    padding: 0 !important;
+  }
+  .upload_icon {
+    display: block !important;
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .drag_imgtext {
+    font: normal normal normal 12px/15px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #cbcbcb;
+    display: block;
+    margin: 10px 0;
+  }
+  .select_filebtn {
+    background: #4ba0f0 0% 0% no-repeat padding-box;
+    border-radius: 4px !important;
+    font: normal normal normal 10px/13px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #ffffff !important;
+    margin-top: -30px !important;
+    width: 159px;
+    height: 55px;
+  }
+  .add_audiofile {
+    background: #ffffff 0% 0% no-repeat padding-box;
+    border: 1px dashed #00a5b8;
+    text-align: center;
+    margin: 10px 0;
+    height: 68px;
+  }
+  .add_audiofile p {
+    margin: 0;
+    font: normal normal normal 18px/23px Source Sans Pro;
+    letter-spacing: 0px;
+    color: #00a5b8;
+    line-height: 68px;
+  }
+  .add_audiofile p img {
+    margin-right: 4px;
+  }
+  .add_img_usrconatiner .modal-dialog {
+    max-width: 500px !important;
+  }
+  .add_img_usrconatiner .modal-footer {
+    padding-bottom: 0 !important;
+  }
+  .cancel_btn a {
+    color: #000000 !important;
+  }
+  @media only screen and (max-width: 767px) {
+    .module_container input {
+      width: 100%;
+    }
+    button.btnSame.mt-4.add_user.saveuser_btn.btn.btn-primary {
+      float: right;
+    }
+  }
+  

@@ -1,0 +1,6 @@
+export const PUBLISH_KEY = 'pk_test_51JGRbWDSSi4bnPJghBxcyBmbVo8P3iPOOiIWGFsZcnV6Zx6hn0W1oXaYDVa4LPHijiy8unPxvaegsXdN3dGR0LRo00r0KfHXf4'
+
+//beta server//'pk_test_51JGRbWDSSi4bnPJghBxcyBmbVo8P3iPOOiIWGFsZcnV6Zx6hn0W1oXaYDVa4LPHijiy8unPxvaegsXdN3dGR0LRo00r0KfHXf4'
+
+//stagin server//'pk_test_51JGRbWDSSi4bnPJghBxcyBmbVo8P3iPOOiIWGFsZcnV6Zx6hn0W1oXaYDVa4LPHijiy8unPxvaegsXdN3dGR0LRo00r0KfHXf4';
+
